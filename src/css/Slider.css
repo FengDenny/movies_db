@@ -1,14 +1,33 @@
 
+
 .slick{ 
     width: 55rem;
     position: relative; 
     border-radius:30px;
+   
  
 }
 
+.slick-next {
+    right: 38px;
+    top:11rem;
+}
+
+.slick-next:before {
+    color:rgb(70, 26, 26);
+}
+
+.slick-prev {
+    left: 38px;
+    z-index: 2;
+    top: 11rem;
+}
+.slick-prev:before {
+    color:rgb(70, 26, 26);
+}
 
 .slick a{
-    padding:10rem
+    padding:10rem;
 }
 
 .slick img 
@@ -16,7 +35,7 @@
     max-width:200px;
     border-radius: 30px;
     box-shadow: var(--box-shadow-img);
-   
+   opacity: 0.85;
 }
 
 
@@ -24,12 +43,69 @@
 
 /* When the width is between 600px and 900px- change the appearance of <div> */
 
-@media screen and (max-width: 900px) and (min-width: 600px) {
+@media only  screen and (max-width: 900px) and (min-width: 768px) {
     .slick{ 
-        width: 40rem;
+        width: 30rem;
         position: relative;
-        margin:0 5rem;
+        top:1rem;
     
     }
+
+.slick img 
+{
+    max-width:150px;
+   
+}
+
+
+.slick-next {
+   
+    top:9rem;
+}
+
+.slick-prev {
+    top:9rem;
+}
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .slick{ 
+        width: 25rem;
+        position: relative;
+        top:1rem;
+    
+    }
+
+.slick img 
+{
+    max-width:100px;
+   
+}
+
+
+.slick-next {
+   
+  visibility: hidden;
+}
+
+.slick-prev {
+   visibility: hidden;
+}
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .slick{ 
+        width: 20rem;
+        position: relative;
+        top:1rem;
+    
+    }
+
+.slick img 
+{
+    max-width:150px;
+   
+}
     
   }
