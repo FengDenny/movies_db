@@ -47,3 +47,35 @@ img{
     font-size:4rem;
 
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) {
+    .hero-content h1{
+     
+        font-size:2rem;
+        
+    }
+    
+    .hero-content span{
+  
+        font-size:3rem;
+    
+    }
+    
+  }
+@media only screen and (max-width: 768px) {
+    .hero-content h1{
+     
+        font-size:1rem;
+        
+    }
+    
+    .hero-content span{
+  
+        font-size:1.5rem;
+    
+    }
+    
+  }
