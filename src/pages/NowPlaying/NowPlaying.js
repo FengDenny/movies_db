@@ -2,6 +2,7 @@ import React from 'react'
 import NowPlayings from './NowPlayings'
 import {Link } from 'react-router-dom'
 import SlickSlider from '../../utility/Slider/Slider'
+import '../../css/NowPlaying.css'
 
  
 
@@ -23,7 +24,7 @@ import SlickSlider from '../../utility/Slider/Slider'
     return (
         <>
         <div className="heading-margin">
-             <h1>{props.header}</h1>
+             <h1 className="primary-color">{props.header}</h1>
         </div>
         <div className="movie-slick">
            <SlickSlider elements={playing} />
