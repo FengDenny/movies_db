@@ -23,12 +23,25 @@ code {
   font-family: 'Happy Monkey', cursive;
 }
 
+.heading-margin{
+  /* top right bottom left */
+  margin:6rem 40rem 0 0;
+  
+}
 
 :root{
   --color:#fff;
   --bg-color-transparent: rgba(0, 0, 0, 0.37);
   --bg-color: rgba(191, 159, 156, 1);
   --box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  --box-shadow-img: 0 0 9px rgba(0, 0, 0, 0.5);
   --graident-color: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+.movie-slick{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
