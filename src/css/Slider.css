@@ -1,0 +1,35 @@
+
+.slick{ 
+    width: 55rem;
+    position: relative; 
+    border-radius:30px;
+ 
+}
+
+
+.slick a{
+    padding:10rem
+}
+
+.slick img 
+{
+    max-width:200px;
+    border-radius: 30px;
+    box-shadow: var(--box-shadow-img);
+   
+}
+
+
+/* Media Queries */
+
+/* When the width is between 600px and 900px- change the appearance of <div> */
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .slick{ 
+        width: 40rem;
+        position: relative;
+        margin:0 5rem;
+    
+    }
+    
+  }
