@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Link } from 'react-router-dom'
+import '../../css/NowPlaying.css'
 
 class NowPlayings extends Component {
     render() {
