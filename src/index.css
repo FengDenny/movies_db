@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -23,12 +24,6 @@ code {
   font-family: 'Happy Monkey', cursive;
 }
 
-.heading-margin{
-  /* top right bottom left */
-  margin:6rem 40rem 0 0;
-  
-}
-
 :root{
   --color:#fff;
   --bg-color-transparent: rgba(0, 0, 0, 0.37);
@@ -36,12 +31,6 @@ code {
   --box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
   --box-shadow-img: 0 0 9px rgba(0, 0, 0, 0.5);
   --graident-color: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
-}
-
-.movie-slick{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  
+  --primary-color: rgb(70, 26, 26);
 }
 
