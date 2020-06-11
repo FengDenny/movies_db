@@ -25,10 +25,10 @@ class Navbar extends Component {
                                 </div>
                             </div>
                         </div>  
-                        <div className="dropdown">
-                            <div className="dropdown-btn">
+                        <div className="dropdown-2">
+                            <div className="dropdown-btn-2">
                                 <Link to="/home">TVshows <FontAwesomeIcon icon={faCaretSquareDown} /></Link>  
-                                < div className="dropdown-content">
+                                < div className="dropdown-content-2">
                                     <Link to ="/">Airs Today</Link>
                                     <Link to ="/">On TV</Link>
                                 </div>
