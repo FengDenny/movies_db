@@ -13,7 +13,7 @@ function App() {
       {/* Home Page Route */}
       <Route  exact path ="/" component={Home}/>
       {/* Top Rated Route */}
-      <Route   path ="/top_rated" component={TopRated}/>
+      <Route   eact path ="/top_rated" component={TopRated}/>
     </div>
     </Router>
   );
