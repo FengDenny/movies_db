@@ -20,7 +20,7 @@ class Navbar extends Component {
                             <div className="dropdown-btn">
                                 <Link to="/home">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </Link>
                                 < div className="dropdown-content">
-                                    <Link to ="/">Now Playing</Link>
+                                    <Link  to ="/top_rated">Top Rated</Link>
                                     <Link to ="/">Upcoming</Link>
                                 </div>
                             </div>
