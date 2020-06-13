@@ -11,18 +11,12 @@ import '../../css/Home.css'
     state={
         nowPlayingList:[],
         nowPlayingMovies:{},
-        upcomingList:[],
-        upcomingMovies:{},
-        popularList:[],
-        popularityMovies:{}
+   
     }
 
     async componentDidMount()
     {
         const nowPlayingUrl = `https://api.themoviedb.org/3/movie/now_playing?api_key=${config.api_key}&language=en-US&page=1`
-        // const upcomingUrl = `https://api.themoviedb.org/3/movie/upcoming?api_key=${config.api_key}&language=en-US&page=1`
-        // const popularity = `https://api.themoviedb.org/3/movie/popular?api_key=${config.api_key}`
-
         const moviePromises = [];
                // send out all the api request at the same time using Promise.all
             // data[0] = nowPlayingUrl
