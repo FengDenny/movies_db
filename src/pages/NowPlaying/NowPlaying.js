@@ -1,6 +1,5 @@
 import React from 'react'
 import NowPlayings from './NowPlayings'
-import {Link } from 'react-router-dom'
 import SlickSlider from '../../utility/Slider/Slider'
 import '../../css/NowPlaying.css'
 
