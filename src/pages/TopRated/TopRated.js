@@ -45,12 +45,12 @@ import Card from '../../utility/Card/Card'
 
         console.log(this.state.TopRatedList)
         return (
-                <>
-                <div className="heading-primary heading-margin">
-                    <h1>Top Rated</h1>
+                <div className="bg-color">
+                <div className="heading-primary heading-secondary">
+                    <h1 className=" ">Top Rated</h1>
                 </div>
                 <Card elements={topRated}/>
-                </>
+                </div>
             )
      }
     
