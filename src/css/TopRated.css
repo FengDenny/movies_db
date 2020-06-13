@@ -1,11 +1,21 @@
-h1{ 
-    display:flex;
+.heading-secondary{
+ display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    margin-top: 2rem;
 }
 
-.heading-margin{
-    /* top right bottom left */
-    margin:10rem 5rem 0 0;
+.heading-secondary h1{
+    color:#fff;
+    font-size:3rem;
+}
 
+  .bg-color
+  {
+    height:100%;
+background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 6rem;
+    position: relative;
   }
