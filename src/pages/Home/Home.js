@@ -5,6 +5,14 @@ import {Link } from 'react-router-dom'
 import NowPlaying from '../NowPlaying/NowPlaying'
 import Theme from '../../img/Theme.jpg'
 import '../../css/Home.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+// library.add(faArrowLeft,faArrowRight)
+
+
+
+
 
  class Home extends Component {
 
@@ -50,7 +58,9 @@ import '../../css/Home.css'
                     </div>
                 </div>
                <div>
+              
                     <NowPlaying playing ={this.state.nowPlayingList} header="Now Playing" />
+               
                </div>
             </div>
         )
