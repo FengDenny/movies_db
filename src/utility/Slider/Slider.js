@@ -25,7 +25,7 @@ import SlickSlider from 'react-slick'
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots:false
+                    dots:true
 
                   }
                 },
