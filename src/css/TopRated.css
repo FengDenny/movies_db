@@ -53,7 +53,7 @@
   }
   /* Buttons */
 
-  button{
+  .buttons button{
     border-radius:10px;
     border: 2px solid #870000;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
@@ -67,7 +67,7 @@
    
   }
 
-  button:hover{
+  .buttons button:hover{
     background-color:#333;
     color:#fff
   }
@@ -77,7 +77,7 @@
 
   @media only screen and (max-width: 900px) 
   { 
-    button{
+    .buttons button{
   
       margin:10px 5px;
       cursor: pointer;
