@@ -12,13 +12,16 @@ class Navbar extends Component {
             <div>
                 <div className="navbar">
                     <div className="nav-logo">
-                        <Link to ="/"><h1 className="heading-primary">MDBR</h1></Link>
+                        <Link to ="/movies_db"><h1 className="heading-primary">MDBR</h1></Link>
                     </div>
                 <nav>
                     <div className="nav-links-left">
                         <div className="dropdown">
                             <div className="dropdown-btn">
-                                <Link to="/home">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </Link>
+                                {/* For localhost production: host:300/ */}
+                                {/* <Link to="/">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </Link> */}
+                                {/* for github upload  fengdenny.github.io/movies_db*/}
+                                <h1 className="nav-h1-1">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </h1>
                                 < div className="dropdown-content">
                                     <Link  to ="/top_rated">Top Rated</Link>
                                     <Link to ="/">Upcoming</Link>
@@ -27,7 +30,7 @@ class Navbar extends Component {
                         </div>  
                         <div className="dropdown-2">
                             <div className="dropdown-btn-2">
-                                <Link to="/home">TVshows <FontAwesomeIcon icon={faCaretSquareDown} /></Link>  
+                                <h1 className="nav-h1-1">TVshows <FontAwesomeIcon icon={faCaretSquareDown} /></h1>  
                                 < div className="dropdown-content-2">
                                     <Link to ="/">Airs Today</Link>
                                     <Link to ="/">On TV</Link>

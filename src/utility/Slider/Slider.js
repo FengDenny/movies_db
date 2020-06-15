@@ -9,13 +9,15 @@ import SlickSlider from 'react-slick'
 
         const settings ={
             dots: true,
+            centerMode: true,
+            centerPadding:'60px',
             infinite: true,
             speed: 1000,
             arrows:true,
-            slidesToShow: 4, 
+            slidesToShow: 3, 
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 4100,
             responsive: [
                 {
                   breakpoint: 900,
