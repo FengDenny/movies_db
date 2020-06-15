@@ -4,7 +4,6 @@ import axios from 'axios'
 import '../../css/TopRated.css'
 import TopRates from './TopRates'
 import Card from '../../utility/Card/Card'
-import InfiniteScroll from 'react-infinite-scroll-component';
 
  class  TopRated extends Component {
 
