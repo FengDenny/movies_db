@@ -9,21 +9,26 @@
 }
 
 .slick-next {
-    right: 38px;
+    right: 5rem;
     top:11rem;
+    /* visibility: hidden; */
 }
 
 .slick-next:before {
     color:rgb(70, 26, 26);
+    font-size:30px !important;
 }
 
 .slick-prev {
-    left: 38px;
+    left: 1rem;
     z-index: 2;
     top: 11rem;
+    /* visibility: hidden; */
 }
 .slick-prev:before {
     color:rgb(70, 26, 26);
+    font-size:30px !important;
+
 }
 
 .slick a{
