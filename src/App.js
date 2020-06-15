@@ -11,9 +11,12 @@ function App() {
     <div className="App">
       <Route  path ="/" component={Navbar}/>
       {/* Home Page Route */}
-      <Route  exact path ="/" component={Home}/>
+       {/* For localhost production: localhost:300/ */}
+      {/* <Route   exact path ="/" component={Home}/> */}
+       {/* for github upload  fengdenny.github.io/movies_db*/}
+      <Route   exact path ="/movies_db" component={Home}/>
       {/* Top Rated Route */}
-      <Route   eact path ="/top_rated" component={TopRated}/>
+      <Route   exact path ="/top_rated" component={TopRated}/>
     </div>
     </Router>
   );
