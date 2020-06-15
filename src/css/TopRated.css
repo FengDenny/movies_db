@@ -6,16 +6,25 @@
 }
 
 .heading-secondary h1{
-    color:#fff;
+    color:#870000;
     font-size:3rem;
 }
 
   .bg-color
   {
     height:100%;
-background: #870000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: #870000;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to bottom, #190A05, #870000);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to bottom, #190A05, #870000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 6rem;
     position: relative;
+  }
+
+
+  /* card border */
+
+  .border{
+      border: 2px solid #870000;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
   }
