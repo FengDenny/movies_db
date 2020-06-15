@@ -70,9 +70,12 @@ import Card from '../../utility/Card/Card'
                 <div className="heading-primary heading-secondary">
                     <h1 className=" ">Top Rated</h1>
                 </div>     
-                        <Card elements={topRated}/>            
-                     <button onClick={this.prevPage}>Previous Page</button>     
-                      <button onClick={this.nextPage}>Next Page</button>    
+                        <Card elements={topRated}/>  
+                  <div className="buttons">
+                            
+                     <button class onClick={this.prevPage}>Previous Page</button>     
+                     <button onClick={this.nextPage}>Next Page</button>    
+                  </div>              
                 </div>
             )
      }
