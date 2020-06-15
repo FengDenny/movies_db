@@ -114,14 +114,14 @@ background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, 
     display:flex;
     flex-direction: row;
     margin-top: 3rem;
-    margin-left:2rem;
+    margin-left:4rem;
 
         
     }
 
     .dropdown-btn-2{
         position: absolute;
-    left: 9rem;
+    left: 10rem;
     }
     svg{
         visibility: hidden;
