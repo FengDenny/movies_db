@@ -1,12 +1,24 @@
 .cards{
     display:grid;
     margin-top:5rem;
-    grid-template-columns: repeat(4, 230px);
+    grid-template-columns: repeat(4, 213px);
     align-items: center;
     justify-content:center;
     grid-gap: 20px;
 }
 
-.cards img{
-    object-fit:cover;
+
+@media only screen and (max-width: 900px) 
+{ 
+    .cards{
+        grid-template-columns: repeat(2,213px);
+    }
+
 }
+
+@media only screen and (max-width: 600px) {
+    .cards{
+        grid-template-columns: repeat(1,213px);
+    }
+
+  }
