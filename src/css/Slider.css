@@ -20,8 +20,8 @@
 }
 
 .slick-prev {
-    left: 1rem;
-    z-index: 2;
+    left:1rem;
+    z-index: 1;
     top: 11rem;
     /* visibility: hidden; */
 }
@@ -46,37 +46,11 @@
 
 /* Media Queries */
 
-/* When the width is between 600px and 900px- change the appearance of <div> */
+/* When the width is between 768px and 900px */
 
 @media only  screen and (max-width: 900px) and (min-width: 768px) {
     .slick{ 
         width: 30rem;
-        position: relative;
-        top:1rem;
-    
-    }
-
-.slick img 
-{
-    max-width:150px;
-   
-}
-
-
-.slick-next {
-   
-    top:9rem;
-}
-
-.slick-prev {
-    top:9rem;
-}
-    
-  }
-
-  @media only screen and (max-width: 768px) {
-    .slick{ 
-        width: 25rem;
         position: relative;
         top:1rem;
     
@@ -91,12 +65,36 @@
 
 .slick-next {
    
-  visibility: hidden;
-}
+    visibility: hidden;
+  }
+  
+  .slick-prev {
+     visibility: hidden;
+  }
+    
+  }
 
-.slick-prev {
-   visibility: hidden;
+  @media only screen and (max-width: 768px) {
+    .slick{ 
+        width: 25rem;
+        position: relative;
+        top:1rem;
+    
+    }
+
+.slick img 
+{
+    max-width:80px;
+   
 }
+.slick-next {
+   
+    visibility: hidden;
+  }
+  
+  .slick-prev {
+     visibility: hidden;
+  }
     
   }
   @media only screen and (max-width: 600px) {
@@ -109,7 +107,7 @@
 
 .slick img 
 {
-    max-width:150px;
+    max-width:80px;
    
 }
     
