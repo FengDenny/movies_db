@@ -10,20 +10,6 @@ code {
     monospace;
 }
 
-
-/* Utilities */
-
-/* css reset */
-*{
-  box-sizing: border-box;
-  padding:0;
-  margin:0;
-}
-
-.heading-primary{
-  font-family: 'Happy Monkey', cursive;
-}
-
 :root{
   --color:#fff;
   --bg-color-transparent: rgba(0, 0, 0, 0.37);
@@ -34,3 +20,86 @@ code {
   --primary-color: rgb(150, 27, 27);
 }
 
+/* Utilities */
+
+/* css reset */
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+/* Heading */
+.heading-primary{
+  font-family: 'Happy Monkey', cursive;
+}
+
+.heading-secondary{
+  display:flex;
+     align-items: center;
+     justify-content: center; 
+     margin-top: 2rem;
+ }
+ 
+ .heading-secondary h1{
+     color:#870000;
+     font-size:3rem;
+ } 
+
+/* bg */
+.bg-color
+  {
+    height:100%;
+    padding: 6rem;
+    position: relative;
+  }
+
+  /* border */
+
+  .border{
+    border: 2px solid #870000;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  height: 420px;
+}
+
+  /* Buttons */
+
+  .buttons button{
+    border-radius:10px;
+    border: 2px solid #870000;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    width:150px;
+    height:30px;
+    margin:40px 20px;
+    cursor: pointer;
+    background-color:transparent;
+    color:#333;
+    font-size:0.9rem;
+   
+  }
+
+  .buttons button:hover{
+    background-color:#333;
+    color:#fff
+  }
+/* img */
+  img{
+    
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 25px 25px 0 0;
+    height:100%;
+  
+     
+    }
+
+
+    .card-title{
+      font-size:0.9rem;
+      color:#870000;
+    }
+
+    .popularity{
+      color:#870000;
+    }
+  
