@@ -7,8 +7,6 @@ import '../../css/NowPlaying.css'
 
  function NowPlaying(props) {
     
-    console.log(props.playing)
-
     const playing = props.playing.map((nowPlaying,i) => {
         return(
             <div key={i}>
