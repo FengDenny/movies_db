@@ -5,6 +5,7 @@ import Navbar from './utility/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import TopRated from './pages/TopRated/TopRated'
 import Discover2020 from './pages/Discover/Discover2020'
+import NowPlayingDetails from './routes/NowPlaying/NowPlayingDetails'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       {/* <Route   exact path ="/" component={Home}/> */}
        {/* for github upload  fengdenny.github.io/movies_db*/}
       <Route   exact path ="/movies_db" component={Home}/>
+      {/* Now Playing Details */}
+      <Route exact path ="/movie/:nowPlayingID" component={NowPlayingDetails}/>
+
       {/* Top Rated Route */}
       <Route   exact path ="/top_rated" component={TopRated}/>
       {/* Year 2020 Movies */}
