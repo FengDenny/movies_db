@@ -24,7 +24,7 @@ class Navbar extends Component {
                                 <h1 className="nav-h1-1">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </h1>
                                 < div className="dropdown-content">
                                     <Link  to ="/top_rated">Top Rated</Link>
-                                    <Link to ="/">Upcoming</Link>
+                                    <Link to ="discover_2020">Popular</Link>
                                 </div>
                             </div>
                         </div>  
