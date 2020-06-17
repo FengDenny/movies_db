@@ -10,7 +10,7 @@ class NowPlayings extends Component {
 
         return (
             <div>
-              <Link to={`/move/${id}`}>
+              <Link to={`/movie/${id}`}>
                    <img src={`${imageUrl}${poster_path}`} alt ="poster" />
               </Link>
               
