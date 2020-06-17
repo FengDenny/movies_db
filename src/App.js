@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Navbar from './utility/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import TopRated from './pages/TopRated/TopRated'
+import Discover2020 from './pages/Discover/Discover2020'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Route   exact path ="/movies_db" component={Home}/>
       {/* Top Rated Route */}
       <Route   exact path ="/top_rated" component={TopRated}/>
+      {/* Year 2020 Movies */}
+      <Route exact path ='/discover_2020' component ={Discover2020} />
     </div>
     </Router>
   );
