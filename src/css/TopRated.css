@@ -1,85 +1,11 @@
-.heading-secondary{
- display:flex;
-    align-items: center;
-    justify-content: center; 
-    margin-top: 2rem;
-}
-
-.heading-secondary h1{
-    color:#870000;
-    font-size:3rem;
-}
-
-  .bg-color
-  {
-    height:100%;
-/* background: #870000;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to bottom, #190A05, #870000);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to bottom, #190A05, #870000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 6rem;
-    position: relative;
-  }
-
-  /* Card */
-
-  /* card border */
-
-  .border{
-      border: 2px solid #870000;
-    border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    height: 400px;
-  }
-
-
-  /* card images */
-
-  img{
-    
-  /* top-left | top-right | bottom-right | bottom-left */
-  border-radius: 25px 25px 0 0;
-  height:100%;
-
-   
-  }
-
-  .card-title{
-    font-size:0.9rem;
-    color:#870000;
-  }
-
-  .popularity{
-    color:#870000;
-  }
-  /* Buttons */
-
-  .buttons button{
-    border-radius:10px;
-    border: 2px solid #870000;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    width:150px;
-    height:30px;
-    margin:40px 20px;
-    cursor: pointer;
-    background-color:transparent;
-    color:#333;
-    font-size:0.9rem;
-   
-  }
-
-  .buttons button:hover{
-    background-color:#333;
-    color:#fff
-  }
 
   /* Media Queries */
-
 
   @media only screen and (max-width: 900px) 
   { 
     .buttons button{
   
-      margin:10px 5px;
+      margin:30px 5px;
       cursor: pointer;
    
     }
