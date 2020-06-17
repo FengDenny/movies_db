@@ -23,7 +23,7 @@ import SlickSlider from 'react-slick'
                   breakpoint: 900,
                   settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots:true
 
@@ -33,7 +33,7 @@ import SlickSlider from 'react-slick'
                   breakpoint: 600,
                   settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     dots:false
                   }
                 },
