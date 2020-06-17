@@ -5,6 +5,7 @@ import '../../css/TopRated.css'
 import TopRates from './TopRates'
 import Card from '../../utility/Card/Card'
 
+
  class  TopRated extends Component {
 
     state={
@@ -71,9 +72,8 @@ import Card from '../../utility/Card/Card'
                     <h1 className=" ">Top Rated</h1>
                 </div>     
                         <Card elements={topRated}/>  
-                  <div className="buttons">
-                            
-                     <button class onClick={this.prevPage}>Previous Page</button>     
+                  <div className="buttons"> 
+                     <button onClick={this.prevPage}>Previous Page</button>     
                      <button onClick={this.nextPage}>Next Page</button>    
                   </div>              
                 </div>
