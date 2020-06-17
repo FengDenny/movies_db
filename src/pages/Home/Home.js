@@ -1,18 +1,9 @@
 import React, { Component } from 'react'
 import config from '../../config'
 import axios from 'axios'
-import {Link } from 'react-router-dom'
 import NowPlaying from '../NowPlaying/NowPlaying'
-import Theme from '../../img/Theme.jpg'
+// import Theme from '../../img/Theme.jpg'
 import '../../css/Home.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
-// library.add(faArrowLeft,faArrowRight)
-
-
-
-
 
  class Home extends Component {
 
@@ -26,9 +17,7 @@ import '../../css/Home.css'
     {
         const nowPlayingUrl = `https://api.themoviedb.org/3/movie/now_playing?api_key=${config.api_key}&language=en-US&page=1`
         const moviePromises = [];
-               // send out all the api request at the same time using Promise.all
-            // data[0] = nowPlayingUrl
-
+         
         moviePromises.push(axios.get(nowPlayingUrl));
         
         Promise.all(moviePromises).then((data)=> {
@@ -43,12 +32,8 @@ import '../../css/Home.css'
 
     }
 
-
     render() {
-            // console.log(this.state.nowPlayingList)
-          
-
-
+        
         return (
             <div>
                 <div className="hero">
