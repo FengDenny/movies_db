@@ -9,6 +9,6 @@ import '../../css/Card.css'
             </div>
         )
     }
-}
+} 
 
 export default Card
