@@ -2,9 +2,15 @@
   /* Media Queries */
   @media only screen and (max-width: 900px) 
   { 
-    .buttons button{
+    .buttons button:first-of-type{
   
-      margin:30px 5px;
+      margin:20px 5px;
+      cursor: pointer;
+   
+    }
+    .buttons button:last-of-type{
+  
+      margin:1px 0;
       cursor: pointer;
    
     }
