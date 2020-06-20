@@ -24,7 +24,7 @@ class Navbar extends Component {
                                 <h1 className="nav-h1-1">Movies <FontAwesomeIcon icon={faCaretSquareDown} /> </h1>
                                 < div className="dropdown-content">
                                     <Link  to ="/top_rated">Top Rated</Link>
-                                    <Link to ="discover_2020">Popular</Link>
+                                    <Link to ="/discover_2020">Popular</Link>
                                 </div>
                             </div>
                         </div>  
@@ -32,8 +32,8 @@ class Navbar extends Component {
                             <div className="dropdown-btn-2">
                                 <h1 className="nav-h1-1">TVshows <FontAwesomeIcon icon={faCaretSquareDown} /></h1>  
                                 < div className="dropdown-content-2">
-                                    <Link to ="/">Airs Today</Link>
-                                    <Link to ="/">On TV</Link>
+                                    <Link to ="/airing">Airs Today</Link>
+                                    <Link to ="/on_tv"> Shows On TV</Link>
                                 </div>
                             </div>
                         </div>
