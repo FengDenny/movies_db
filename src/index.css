@@ -85,7 +85,12 @@ code {
     background-color:transparent;
     color:#333;
     font-size:0.9rem;
+    outline:none;
    
+  }
+
+  .back-btn button{
+    margin:10px 20px !important;
   }
 
   .buttons button:hover{
@@ -124,6 +129,7 @@ code {
       position:absolute;
       right:12rem;
       display: inline-block;
+      top: 2rem;
     } 
 
     .popularity-overview{
