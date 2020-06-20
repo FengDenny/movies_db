@@ -35,7 +35,7 @@ import Card from '../../utility/Card/Card'
       
         nextPage = () => {
             let page = this.state.pageNum
-            if(this.state.TopRatedList && this.state.pageNum < this.state.totalPages)
+            if(this.state.TopRatedList && page < this.state.totalPages)
             {
                 this.setState({
                     pageNum: page += 1
@@ -45,7 +45,7 @@ import Card from '../../utility/Card/Card'
 
         prevPage = () => {
             let page = this.state.pageNum
-            if(this.state.TopRatedList && this.state.pageNum !== 1)
+            if(this.state.TopRatedList && page !== 1)
             {
                 this.setState({
                     pageNum: page -= 1
