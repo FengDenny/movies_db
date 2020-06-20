@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import config from '../../config' 
+import BackBtn from '../../utility/Back-btn/BackBtn'
 
 class DiscoverDetails extends Component { 
      state={
@@ -42,6 +43,7 @@ class DiscoverDetails extends Component {
             <div  className="image-width">
                    <img src ={imageURL} alt="discover"/>
             </div>
+            <BackBtn />
                 <div className="p-overview">
                     <p>{discoverDetail.overview}</p>
                 </div>

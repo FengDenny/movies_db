@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import config from '../../config' 
+import BackBtn from '../../utility/Back-btn/BackBtn'
 
  class NowPlayingDetails extends Component {
 
@@ -24,7 +25,6 @@ import config from '../../config'
         })
     }
 
-
     render() {
 
         console.log(this.state.nowPlayingDetails)
@@ -42,6 +42,7 @@ import config from '../../config'
             <div className ="image-width">
                  <img src={imageURL} alt="show"/>
             </div>
+                <BackBtn />
             <div className ="p-overview">
                 <p>{nowPlayingDetails.overview}</p>           
                

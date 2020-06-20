@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import config from '../../config'
+import BackBtn from '../../utility/Back-btn/BackBtn'
 
 class AirsTodayDetails extends Component {
     state={ 
@@ -38,6 +39,7 @@ class AirsTodayDetails extends Component {
                 <div className="image-width">
                     <img src={imageURL} alt="cover" />
                 </div>
+                <BackBtn />
                 <div className="p-overview">
                     <p>{AiringDetails.overview}</p>
                 </div>

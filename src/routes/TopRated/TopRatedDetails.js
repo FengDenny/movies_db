@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import config from '../../config'
+import BackBtn from '../../utility/Back-btn/BackBtn'
 
  class TopRatedDetails extends Component {
 
@@ -34,6 +35,7 @@ import config from '../../config'
                 <div className="image-width">
                     <img src={imageURL} alt="top rated" />
                 </div>
+                <BackBtn />
                 <div className="p-overview">
                     <p>{topDetails.overview}</p>
                 </div>

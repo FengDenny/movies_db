@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import config from '../../config'
+import BackBtn from '../../utility/Back-btn/BackBtn'
 
  class OnTVDetails extends Component {
 
@@ -19,10 +20,7 @@ import config from '../../config'
             })
         }
 
-        back = () => {
-            window.history.back();
-        }
-
+      
 
 
     render() {
@@ -41,9 +39,7 @@ import config from '../../config'
                 <div className="image-width">
                     <img src={imageURL} alt="on tv"/>
                 </div>
-                <div className="buttons back-btn"> 
-                     <button onClick={this.back}>Back</button>  
-                     </div>
+                 <BackBtn />
                 <div className="p-overview">
                     <p>{onTVDetails.overview}</p>
                 </div>
