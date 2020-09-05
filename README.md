@@ -4,3 +4,5 @@ Remix of MovieDB
 
 npm start
 
+## Preview
+https://fengdenny.github.io/movies_db/
